@@ -1,0 +1,36 @@
+**Project Description**
+
+This project is to be used as a guide to understand how arrays and subsequently
+dynamic arrays work. 
+
+The project includes the following -
+
+1. DynamicArray.java
+- This class represents the data structure in which describes the DynamicArray. It 
+  contains methods to achieve the behaviours listed below:
+  
+  		- Add an integer to the end of an array
+  		- Remove an integer from the end of an array
+  		- Add an integer to a selected index of an array
+  		- Remove an integer from the selected index of an array
+  		- Print the logical size and capacity of the array
+  		- Print the contents of the array
+  		
+2. Utilities.java
+- This class contains utilities methods to assist in the execution of the program.
+
+3. Main.java
+- This class is the class to be invoked to run the program. The program itself is a 
+  demonstration of the listed behaviours of the dynamic array listed above.
+  
+NOTE: This project can also be compiled and run without an IDE. Included is a build.xml
+that allows the project to be compiled with Ant.
+
+To compile the build, go to the project directory and locate the build.xml and type Ant build.xml.
+By default, Ant expects the file to be called build.xml, thus simply invoking the command Ant will 
+build the project.
+
+To execute the project through the command line, run the following line - "java -jar dynamicArrays.jar"
+
+References:
+1. Ant installation - http://ant.apache.org/manual/install.html 
