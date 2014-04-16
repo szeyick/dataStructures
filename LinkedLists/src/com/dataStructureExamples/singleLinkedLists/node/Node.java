@@ -1,4 +1,4 @@
-package com.dataStructureExamples.linkedLists.node;
+package com.dataStructureExamples.singleLinkedLists.node;
 
 /**
  * The Node class represents a single node

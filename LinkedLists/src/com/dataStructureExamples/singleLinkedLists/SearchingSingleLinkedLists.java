@@ -1,6 +1,6 @@
-package com.dataStructureExamples.linkedLists.singleLinkedLists;
+package com.dataStructureExamples.singleLinkedLists;
 
-import com.dataStructureExamples.linkedLists.node.Node;
+import com.dataStructureExamples.singleLinkedLists.node.Node;
 
 /**
  * The SearchingSingleLinkedLists class.
