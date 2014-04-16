@@ -1,0 +1,27 @@
+**Project Description**
+
+This project is to be used as a guide to understand linked structures and pointers work. 
+
+It is seperated into a bunch of different classes to explain the different operations
+that can be done on Single Linked Lists..
+
+A description of the following classes are outlined below -
+
+1. SingleLinkedListNode.java
+
+This is the data structure that represents a node in a Single Linked List. The node only
+contains a single pointer to it's successor and only contains a single data field (Name).
+
+It contains getter methods to retrieve the data fields and also the pointers to its successor.
+
+2. SearchingSingleLinkedLists.java
+
+This class details the implementation of searching for an item in a Single Linked List. It 
+covers the search performed both iteratively and recurisively.
+
+References - 
+
+The code provided here should be used alongside the notes that are provided in the tutorial 
+blogs located at
+
+1 - http://szestudios.blogspot.com.au/2014/04/linked-structures-and-pointers.html 
