@@ -1,6 +1,6 @@
 package com.dataStructureExamples.linkedLists.singleLinkedLists;
 
-import com.dataStructureExamples.linkedLists.node.SingleLinkedListNode;
+import com.dataStructureExamples.linkedLists.node.Node;
 
 /**
  * The SearchingSingleLinkedLists class.
@@ -23,7 +23,7 @@ public class SearchingSingleLinkedLists {
 	 * @param args - command line arguments.
 	 */
 	public static void main(String[] args) {
-		SingleLinkedListNode head = buildLinkedList();
+		Node head = buildLinkedList();
 		
 		// Printing the output for the searched names by searching lists
 		// iteratively and recurisvely.
@@ -42,13 +42,13 @@ public class SearchingSingleLinkedLists {
 	 * 
 	 * head -> John -> Sue -> Dave -> null
 	 * 
-	 * @return the constructed linked list as a {@link SingleLinkedListNode}
+	 * @return the constructed linked list as a {@link Node}
 	 */
-	public static SingleLinkedListNode buildLinkedList() {
+	public static Node buildLinkedList() {
 		// Create our individual nodes.
-		SingleLinkedListNode john = new SingleLinkedListNode("John");
-		SingleLinkedListNode sue = new SingleLinkedListNode("Sue");
-		SingleLinkedListNode dave = new SingleLinkedListNode("Dave");
+		Node john = new Node("John");
+		Node sue = new Node("Sue");
+		Node dave = new Node("Dave");
 		
 		// Connect the nodes John -> Sue -> Dave
 		john.setNext(sue);
@@ -66,10 +66,10 @@ public class SearchingSingleLinkedLists {
 	 * @return <code>true</code> if we find the name in our list, 
 	 * <code>false</code> otherwise.
 	 */
-	public static boolean iterativeSearchSingleLinkedList(SingleLinkedListNode head, String name) {
+	public static boolean iterativeSearchSingleLinkedList(Node head, String name) {
 		
 		boolean isFound = false; // flag to indicate if we have found our name or not.
-		SingleLinkedListNode currentNode = head; // reference to the current node we are looking at. 
+		Node currentNode = head; // reference to the current node we are looking at. 
 		
 		// We iterate through our linked list, until we have no more nodes to 
 		// look at (Condition #2)
@@ -99,7 +99,7 @@ public class SearchingSingleLinkedLists {
 	 * @param name - the name that we are searching for.
 	 * @return <code>true</code> if the name is in 
 	 */
-	public static boolean recursiveSearchSingleLinkedList(SingleLinkedListNode head, String name) {
+	public static boolean recursiveSearchSingleLinkedList(Node head, String name) {
 		
 		// If the current head is null, it means we've
 		// reached the end of our list. (Condition #2)

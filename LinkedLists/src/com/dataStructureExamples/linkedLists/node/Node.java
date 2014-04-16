@@ -9,7 +9,7 @@ package com.dataStructureExamples.linkedLists.node;
  * 
  * @author Sze Yick.
  */
-public class SingleLinkedListNode {
+public class Node {
 
 	/**
 	 * The data that this node holds.
@@ -19,13 +19,13 @@ public class SingleLinkedListNode {
 	/**
 	 * The pointer to the next node.
 	 */
-	private SingleLinkedListNode nextNode;
+	private Node nextNode;
 	
 	/**
 	 * The constructor to initialise the new node.
 	 * @param nameTmp - The name to store in this node.
 	 */
-	public SingleLinkedListNode(String nameTmp) {
+	public Node(String nameTmp) {
 		name = nameTmp;
 		nextNode = null;
 	}
@@ -41,9 +41,9 @@ public class SingleLinkedListNode {
 	/**
 	 * Getter method to return the next node. The node
 	 * to be returned is the one that this node points to.
-	 * @return The next node as a {@link SingleLinkedListNode}
+	 * @return The next node as a {@link Node}
 	 */
-	public SingleLinkedListNode getNext() {
+	public Node getNext() {
 		return nextNode;
 	}
 
@@ -52,7 +52,7 @@ public class SingleLinkedListNode {
 	 * to another node, creating the link.
 	 * @param nextNodeTmp - The node to connect to.
 	 */
-	public void setNext(SingleLinkedListNode nextNodeTmp) {
+	public void setNext(Node nextNodeTmp) {
 		nextNode = nextNodeTmp;
 	}
 }
