@@ -29,6 +29,9 @@ public class SearchingSingleLinkedLists {
 		// iteratively and recurisvely.
 		System.out.println(iterativeSearchSingleLinkedList(head, "Dave"));
 		System.out.println(recursiveSearchSingleLinkedList(head, "Sue"));
+		
+		System.out.println(iterativeSearchSingleLinkedList(head, "Gary"));
+		System.out.println(recursiveSearchSingleLinkedList(head, "Steve"));
 	}
 
 	/**
