@@ -2,9 +2,13 @@
 
 This project is to be used as a guide to understand linked structures and pointers work. 
 
-It is seperated into a bunch of different classes to explain the different operations
-that can be done on Single Linked Lists. The programs are independantly runnable to demonstrate
+It is separated into a bunch of different classes to explain the different operations
+that can be done on Single Linked Lists. The programs are independently runnable to demonstrate
 the various operations that can be performed on a single linked list.
+
+It should be noted that the different classes provided detail the steps and methods required to
+perform each of the operations on a Single Linked List. It does not utilise OO concepts and acts 
+as a guide to explain how the operations work individually.
 
 A description of the following classes are outlined below -
 
@@ -18,7 +22,7 @@ It contains getter methods to retrieve the data fields and also the pointers to 
 2. SearchingSingleLinkedLists.java
 
 This class details the implementation of searching for an item in a Single Linked List. It 
-covers the search performed both iteratively and recurisively.
+covers the search performed both iteratively and recursively.
 
 3. InsertIntoHeadOfSingleLinkedList
 
@@ -27,6 +31,10 @@ This class details the implementation of inserting an item into the head of a Si
 4. InsertIntoEndOfSingleLinkedList
 
 This class details the implementation of inserting an item into the tail of a Single Linked List.
+
+5. DeleteNodeFromSingleLinkedList
+
+This class details the steps required to delete/remove an node from a Single Linked List.
 
 References - 
 
