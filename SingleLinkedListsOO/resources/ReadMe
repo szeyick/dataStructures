@@ -28,3 +28,10 @@ three operations are combined and used within a OO environment.
 
 Additionally the Node class has been added as a inner class of the SingleLinkedList. This has been done
 to hide the data and state from external classes.
+
+References - 
+
+The code provided here should be used alongside the notes that are provided in the tutorial 
+blogs located at
+
+1. http://szestudios.blogspot.com.au/2014/05/combining-single-linked-list-operations.html

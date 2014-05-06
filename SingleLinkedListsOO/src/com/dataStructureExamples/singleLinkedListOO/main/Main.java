@@ -1,4 +1,4 @@
-package com.dataStructureExamples.singleLinkedListsOO.main;
+package com.dataStructureExamples.singleLinkedListOO.main;
 
 import com.dataStructureExamples.singleLinkedListOO.linkedList.SingleLinkedList;
 
