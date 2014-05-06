@@ -1,0 +1,30 @@
+**Project Description**
+
+This project is a combination of the three operations of a single linked list, combined
+with OO (Object Orientated) concepts in Java.
+
+There isn't much difference between the methods that were implemented previously and here. The 
+majority of the operations have been imported from the SingleLinkedLists project into the class
+SingleLinkedList.
+
+The idea behind using OO concepts here to encapsulate the data contained within each node so that
+it cannot be accessed directly from outside of the SingleLinkedList class. Therefore we are also not 
+exposing the state of the node.
+
+A description of the following classes are outlined below -
+
+1. Main.java
+
+The main runnable, this class creates a SingleLinkedList object and demonstrates the three
+operations (search, insertion and deletion). It has no knowledge of the internal workings of
+the SingleLinkedList class and only passes raw data to it.     
+
+2. SingleLinkedList.java
+
+Contains the implementation of the three single linked list operations (search, insertion, deletion).
+
+The majority of the code used in this class is imported with some minor changes to demonstrate how the
+three operations are combined and used within a OO environment.
+
+Additionally the Node class has been added as a inner class of the SingleLinkedList. This has been done
+to hide the data and state from external classes.
