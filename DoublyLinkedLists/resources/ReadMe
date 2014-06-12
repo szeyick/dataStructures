@@ -1,0 +1,35 @@
+**Project Description**
+
+This project is a OO implemenation of a Doubly Linked List in Java. 
+
+The three operations of the doubly linked structure (search, insertion and deletion) are maintained
+within the DoublyLinkedList data structure. 
+
+The idea to combine the functionality is to demonstrate how the data structure would operate under
+a OO environment rather than to split the functionality up into separate classes. It is a simple
+data structure so the code to perform the operations should not make the class to cluttered. 
+
+The Node class is also a private inner class of the DoublyLinkedList such as to encapsulate the
+data and functionality of the node within the list structure to avoid exposing the data directly.
+
+A description of the following classes are outlined below -
+
+1. Main.java
+
+The main runnable, this class creates a DoublyLinkedList object and demonstrates the three
+operations (search, insertion and deletion). It has no knowledge of the internal workings of
+the DoublyLinkedList class and only passes raw data to it.     
+
+2. DoublyLinkedList.java
+
+Contains the implementation of the three doubly linked list operations (search, insertion, deletion).
+
+Additionally the Node class has been added as a inner class of the DoublyLinkedList. This has been done
+to hide the data and state from external classes.
+
+References - 
+
+The code provided here should be used alongside the notes that are provided in the tutorial 
+blogs located at
+
+1. http://szestudios.blogspot.com.au/2014/06/doubly-linked-lists-searching.html
