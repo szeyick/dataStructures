@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Arrays/src"/>
+	<classpathentry kind="src" path="Arrays/test"/>
+	<classpathentry kind="src" path="BinarySearchTree/src"/>
+	<classpathentry kind="src" path="DoublyLinkedLists/src"/>
+	<classpathentry kind="src" path="HashTables/src"/>
+	<classpathentry kind="src" path="IntroductionToAlgorithmsAndDataStructures/src"/>
+	<classpathentry kind="src" path="SingleLinkedLists/src"/>
+	<classpathentry kind="src" path="SingleLinkedListsOO/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="HashTables/bin"/>
+</classpath>
